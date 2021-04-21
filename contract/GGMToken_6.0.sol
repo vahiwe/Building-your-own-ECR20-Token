@@ -1,11 +1,11 @@
 pragma solidity 0.6.6;
 
 // ----------------------------------------------------------------------------
-// 'GGMToken' token contract
+// 'Mad' token contract
 //
-// Deployed to : 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf
-// Symbol      : GGM
-// Name        : GGMToken
+// Deployed to : 0x30e326D2924DE189Ce822Eca58B28F165d769f8D
+// Symbol      : MAD
+// Name        : Mad Coin
 // Total supply: 100000000
 // Decimals    : 18
 //
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract GGMToken is ERC20Interface, Owned, SafeMath {
+contract Mad Coin is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -113,12 +113,12 @@ contract GGMToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "CCM";
-        name = "CCMToken";
-        decimals = 0;
+        symbol = "MAD";
+        name = "Mad Coin";
+        decimals = 18;
         _totalSupply = 100000000;
-        balances[0x4B6408E5De3D348C0cd571E67Aa2dDBDe563AD58] = _totalSupply;
-        emit Transfer(address(0), 0x4B6408E5De3D348C0cd571E67Aa2dDBDe563AD58, _totalSupply);
+        balances[0x30e326D2924DE189Ce822Eca58B28F165d769f8D] = _totalSupply;
+        emit Transfer(address(0), 0x30e326D2924DE189Ce822Eca58B28F165d769f8D, _totalSupply);
     }
 
 
