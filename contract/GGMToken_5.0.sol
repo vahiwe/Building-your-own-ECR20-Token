@@ -1,11 +1,11 @@
 pragma solidity ^0.5.00;
 
 // ----------------------------------------------------------------------------
-// 'GGMToken' token contract
+//'CCBToken' token contract
 //
-// Deployed to : 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf
-// Symbol      : GGM
-// Name        : GGMToken
+// Deployed to : 0x78753C3c20bA976433D0320276f4E69883eD4284
+// Symbol      : CCB
+// Name        : CCBToken
 // Total supply: 100000000
 // Decimals    : 18
 //
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract GGMToken is ERC20Interface, Owned, SafeMath {
+contract CCBToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -113,12 +113,12 @@ contract GGMToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "GGM";
-        name = "GGMToken";
+        symbol = "CCB";
+        name = "CCBToken";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0xFEB02D9383C49A8373F88e82EbCecB553c1837bf] = _totalSupply;
-        emit Transfer(address(0), 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf, _totalSupply);
+        balances[0x78753C3c20bA976433D0320276f4E69883eD4284] = _totalSupply;
+        emit Transfer(address(0), 0x78753C3c20bA976433D0320276f4E69883eD4284, _totalSupply);
     }
 
 
