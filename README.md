@@ -42,4 +42,4 @@ This repo contains the sample solidity file:
 Feel free to leave any issues and I'll get back to you and help you out :)
 
 
-This README file provides all the information required to compile, deploy, and interact with the `GGMToken` contract, along with instructions for cloning the repository and installing necessary dependencies like OpenZeppelin contracts.
+This README file provides all the information required to compile, deploy, and interact with the `GGMToken` contract, along with instructions for cloning the repository and installing necessary dependencies
