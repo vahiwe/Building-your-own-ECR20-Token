@@ -9,7 +9,9 @@ Tutorial: [Building your own Ethereum based ERC20 Token in less than an hour](ht
 This tutorial will take you through the steps of building your first ERC20 token on the Ethereum network using a single smart contract and MetaMask wallet.
 
  <img src="https://res.cloudinary.com/dtvv1oyyj/image/upload/v1692871107/such.png">
-## Quick Start
+## Quick Start (To run follow the medium article to use remix or use the solc cli if you have it installed)
+
+# https://docs.soliditylang.org/en/v0.8.9/installing-solidity.html
 
 1. **Clone the Repository**: 
    ```bash
@@ -19,12 +21,7 @@ This tutorial will take you through the steps of building your first ERC20 token
    ```bash
    cd <project-directory>
 
-3. **Install OpenZeppelin Contracts**: 
-OpenZeppelin provides reusable smart contracts for the Ethereum platform. Install it using npm:
-   ```bash
-   npm install @openzeppelin/contracts
-
-5. **Compile the Contract**: 
+3. **Compile the Contract**: 
    ```bash
    solc --optimize --bin --abi contracts/GGMToken.sol -o build
 
